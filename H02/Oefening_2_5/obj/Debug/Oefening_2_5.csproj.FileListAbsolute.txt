@@ -1,0 +1,13 @@
+C:\Users\Ian\Google Drive\School\Hogeschool - PXL\Eerste jaar\.NET Essentials\Oefeningen\H02\Oefening_2_5\bin\Debug\Oefening_2_5.exe.config
+C:\Users\Ian\Google Drive\School\Hogeschool - PXL\Eerste jaar\.NET Essentials\Oefeningen\H02\Oefening_2_5\bin\Debug\Oefening_2_5.exe
+C:\Users\Ian\Google Drive\School\Hogeschool - PXL\Eerste jaar\.NET Essentials\Oefeningen\H02\Oefening_2_5\bin\Debug\Oefening_2_5.pdb
+C:\Users\Ian\Google Drive\School\Hogeschool - PXL\Eerste jaar\.NET Essentials\Oefeningen\H02\Oefening_2_5\obj\Debug\MainWindow.g.cs
+C:\Users\Ian\Google Drive\School\Hogeschool - PXL\Eerste jaar\.NET Essentials\Oefeningen\H02\Oefening_2_5\obj\Debug\App.g.cs
+C:\Users\Ian\Google Drive\School\Hogeschool - PXL\Eerste jaar\.NET Essentials\Oefeningen\H02\Oefening_2_5\obj\Debug\Oefening_2_5_MarkupCompile.cache
+C:\Users\Ian\Google Drive\School\Hogeschool - PXL\Eerste jaar\.NET Essentials\Oefeningen\H02\Oefening_2_5\obj\Debug\Oefening_2_5_MarkupCompile.lref
+C:\Users\Ian\Google Drive\School\Hogeschool - PXL\Eerste jaar\.NET Essentials\Oefeningen\H02\Oefening_2_5\obj\Debug\MainWindow.baml
+C:\Users\Ian\Google Drive\School\Hogeschool - PXL\Eerste jaar\.NET Essentials\Oefeningen\H02\Oefening_2_5\obj\Debug\Oefening_2_5.g.resources
+C:\Users\Ian\Google Drive\School\Hogeschool - PXL\Eerste jaar\.NET Essentials\Oefeningen\H02\Oefening_2_5\obj\Debug\Oefening_2_5.Properties.Resources.resources
+C:\Users\Ian\Google Drive\School\Hogeschool - PXL\Eerste jaar\.NET Essentials\Oefeningen\H02\Oefening_2_5\obj\Debug\Oefening_2_5.csproj.GenerateResource.Cache
+C:\Users\Ian\Google Drive\School\Hogeschool - PXL\Eerste jaar\.NET Essentials\Oefeningen\H02\Oefening_2_5\obj\Debug\Oefening_2_5.exe
+C:\Users\Ian\Google Drive\School\Hogeschool - PXL\Eerste jaar\.NET Essentials\Oefeningen\H02\Oefening_2_5\obj\Debug\Oefening_2_5.pdb
