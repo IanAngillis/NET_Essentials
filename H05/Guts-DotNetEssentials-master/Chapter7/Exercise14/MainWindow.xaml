@@ -1,0 +1,31 @@
+﻿<Window x:Class="Exercise14.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exercise14"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="525">
+    <Grid Margin="0,0,0,-5">
+        <Label Name="naamButton_Button" Content="Naam:" HorizontalAlignment="Left" Margin="65,42,0,0" VerticalAlignment="Top" Width="82"/>
+        <Label Name="voornaamButton_Button" Content="Voornaam:" HorizontalAlignment="Left" Margin="65,73,0,0" VerticalAlignment="Top" Width="82"/>
+        <TextBox Name="naamTextBox_TextBox" HorizontalAlignment="Left" Height="23" Margin="177,46,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="voornaamTextBox_TextBox" HorizontalAlignment="Left" Height="23" Margin="177,77,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <GroupBox Header="Geslacht" HorizontalAlignment="Left" Height="49" Margin="65,125,0,0" VerticalAlignment="Top" Width="232">
+            <Grid>
+                <RadioButton Name="manRadioButton" Content="Man" HorizontalAlignment="Left" Margin="47,8,0,0" VerticalAlignment="Top" Checked="manRadioButton_Checked"/>
+                <RadioButton Name="vrouwRadioButton" Content="Vrouw" HorizontalAlignment="Left" Margin="104,8,0,0" VerticalAlignment="Top" Checked="vrouwRadioButton_Checked"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="Leeftijd" HorizontalAlignment="Left" Height="120" Margin="65,202,0,0" VerticalAlignment="Top" Width="232">
+            <Grid>
+                <RadioButton Name="leeftijdTussen18En30RadioButton" Content="tussen 18 en 30" HorizontalAlignment="Left" Margin="60,10,0,0" VerticalAlignment="Top" Checked="leeftijdTussen18En30RadioButton_Checked"/>
+                <RadioButton Name="leeftijdTussen30En45RadioButton" Content="tussen 30 en 45" HorizontalAlignment="Left" Margin="60,30,0,0" VerticalAlignment="Top" Checked="leeftijdTussen30En45RadioButton_Checked"/>
+                <RadioButton Name="leeftijdTussen45En60RadioButton" Content="tussen 45 en 60" HorizontalAlignment="Left" Margin="60,50,0,0" VerticalAlignment="Top" Checked="leeftijdTussen45En60RadioButton_Checked"/>
+                <RadioButton Name="leeftijdOuderDan60Button" Content="ouder dan 60" HorizontalAlignment="Left" Margin="60,70,0,0" VerticalAlignment="Top" Checked="leeftijdOuderDan60Button_Checked"/>
+
+            </Grid>
+        </GroupBox>
+        <Button Name="berekenButton_Button" Content="Bereken" HorizontalAlignment="Left" Margin="221,351,0,0" VerticalAlignment="Top" Width="75"/>
+    </Grid>
+</Window>

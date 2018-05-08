@@ -1,0 +1,21 @@
+﻿<Window x:Class="Oefening_4_10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Oefening_4_10"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Label Name="inputBeginSaldoLabel_label" Content="Beginsaldo:" HorizontalAlignment="Left" Margin="56,69,0,0" VerticalAlignment="Top" Width="70"/>
+        <Label Name="inputJarenLabel_Label" Content="Jaren:" HorizontalAlignment="Left" Margin="56,95,0,0" VerticalAlignment="Top" Width="70"/>
+        <Label Name="inputRenteLabel_Label" Content="Rente:" HorizontalAlignment="Left" Margin="56,121,0,0" VerticalAlignment="Top" Width="70"/>
+        <Label Name="outputEindSaldoLabel_Label" Content="Eindsaldo:" HorizontalAlignment="Left" Margin="56,174,0,0" VerticalAlignment="Top" Height="27" Width="70"/>
+        <TextBox Name="inputBeginSaldoTextBox_TextBox" HorizontalAlignment="Left" Height="23" Margin="171,72,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="inputJarenTextBox_TextBox" HorizontalAlignment="Left" Height="23" Margin="171,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="inputRenteTexbox_TextBox" HorizontalAlignment="Left" Height="23" Margin="171,128,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBlock Name="outputEindSaldoTextBlock_TextBlock" HorizontalAlignment="Left" Margin="171,185,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="21"/>
+        <Button Name="calculateButton_Button" Content="Calculate!" HorizontalAlignment="Left" Margin="192,22,0,0" VerticalAlignment="Top" Width="75" Click="calculateButton_Button_Click"/>
+
+    </Grid>
+</Window>

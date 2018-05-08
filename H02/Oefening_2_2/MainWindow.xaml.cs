@@ -33,6 +33,8 @@ namespace Oefening_2_2
         private void invisible_Button_Click(object sender, RoutedEventArgs e)
         {
             label_Label.Visibility = Visibility.Collapsed;
+            //Collapsed, geen ruimte gereserveerd
+            //Hidden, niet zichtbaar maar ruimte blijft gereserveerd. Dus in zekere zin ook zichtbaar
         }
     }
 }

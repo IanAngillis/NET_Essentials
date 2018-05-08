@@ -1,0 +1,20 @@
+﻿<Window x:Class="Oefening_18_5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Oefening_18_5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Label Name="fileLabel_Label" Content="Bestand" HorizontalAlignment="Left" Margin="26,28,0,0" VerticalAlignment="Top" Width="52"/>
+        <TextBlock Name="fileTextBlock_TextBlock" HorizontalAlignment="Left" Margin="83,33,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="368"/>
+        <Button Name="selectFileButton_Button" Content="..." HorizontalAlignment="Left" Margin="456,33,0,0" VerticalAlignment="Top" Width="24" Click="selectFileButton_Button_Click"/>
+        <Label Name="vanLabel_Label" Content="Van" HorizontalAlignment="Left" Margin="26,59,0,0" VerticalAlignment="Top"/>
+        <Label Name="naarLabel_Label" Content="Naar" HorizontalAlignment="Left" Margin="26,90,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="vanTextBox_TextBox" HorizontalAlignment="Left" Height="23" Margin="69,62,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="177"/>
+        <TextBox Name="naarTextBox_TextBox" HorizontalAlignment="Left" Height="23" Margin="69,93,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="177"/>
+        <Button Name="pasAanButton_Button" Content="Pas aan" HorizontalAlignment="Left" Margin="26,133,0,0" VerticalAlignment="Top" Width="75" Click="pasAanButton_Button_Click"/>
+
+    </Grid>
+</Window>

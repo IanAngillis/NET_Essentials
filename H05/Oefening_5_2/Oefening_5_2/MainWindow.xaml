@@ -1,0 +1,15 @@
+﻿<Window x:Class="Oefening_5_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Oefening_5_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox Name="voornaamTextBox_TextBox" HorizontalAlignment="Left" Height="23" Margin="149,143,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="achternaamTextBox_TextBox" HorizontalAlignment="Left" Height="23" Margin="307,143,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Name="ShowButton_Button" Content="Show" HorizontalAlignment="Left" Margin="24,143,0,0" VerticalAlignment="Top" Width="75" Click="ShowButton_Button_Click"/>
+
+    </Grid>
+</Window>

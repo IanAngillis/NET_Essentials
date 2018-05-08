@@ -1,0 +1,14 @@
+﻿<Window x:Class="mousemovecanvas.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mousemovecanvas"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Canvas Name="tekenCanvas" HorizontalAlignment="Left" Height="182" Margin="302,104,0,0" VerticalAlignment="Top" Width="196" Background="Aqua" MouseMove="tekenCanvas_MouseMove" />
+        <TextBox Name="PositionTextBox_TextBox" HorizontalAlignment="Left" Height="23" Margin="61,235,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="PositionTextBox2_TextBox" HorizontalAlignment="Left" Height="23" Margin="68,270,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+    </Grid>
+</Window>

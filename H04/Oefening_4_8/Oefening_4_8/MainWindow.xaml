@@ -1,0 +1,17 @@
+﻿<Window x:Class="Oefening_4_8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Oefening_4_8"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Name="calculatebutton_Button" Content="Calculate!" HorizontalAlignment="Left" Margin="90,146,0,0" VerticalAlignment="Top" Width="75" Click="calculatebutton_Button_Click"/>
+        <TextBlock Name="serieweerstandTextBlock_TextBlock" HorizontalAlignment="Left" Margin="210,200,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock Name="parallelweerstandTextBlock_TextBlock" HorizontalAlignment="Left" Margin="210,239,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <Label Name="serieweerstandLabel_Label" Content="Serieweerstand:" HorizontalAlignment="Left" Margin="90,195,0,0" VerticalAlignment="Top" Height="30" Width="99"/>
+        <Label Name="parralelweerstandLabel_Label" Content="Parallelweerstand:" HorizontalAlignment="Left" Margin="78,230,0,0" VerticalAlignment="Top" Width="111"/>
+
+    </Grid>
+</Window>

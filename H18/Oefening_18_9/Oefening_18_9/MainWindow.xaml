@@ -1,0 +1,17 @@
+﻿<Window x:Class="Oefening_18_9.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Oefening_18_9"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Label Name="mapLabel_Label" Content="Map:" HorizontalAlignment="Left" Margin="21,23,0,0" VerticalAlignment="Top"/>
+        <TextBlock Name="mapTextBlock_TextBlock" HorizontalAlignment="Left" Margin="64,28,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="371"/>
+        <Button Name="selectFolderButton_Button" Content="..." HorizontalAlignment="Left" Margin="440,23,0,0" VerticalAlignment="Top" Width="20" Click="selectFolderButton_Button_Click"/>
+        <ScrollViewer Margin="0,143,0,0">
+            <TextBlock Name="resultTextBlock_Textblock" HorizontalAlignment="Left" Margin="21,54,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="255" Width="466"/>
+        </ScrollViewer>
+    </Grid>
+</Window>

@@ -1,0 +1,16 @@
+﻿<Window x:Class="Oefening_5_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Oefening_5_3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Name="calculateButton_Button" Content="Calculate" HorizontalAlignment="Left" Margin="57,149,0,0" VerticalAlignment="Top" Width="75" Click="calculateButton_Button_Click"/>
+        <TextBox Name="inkomenTextBox_TextBox" HorizontalAlignment="Left" Height="23" Margin="183,67,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="aantalJarenTextBox_TextBox" HorizontalAlignment="Left" Height="23" Margin="350,67,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBlock Name="outputTextBlock_TextBlock" HorizontalAlignment="Left" Margin="195,149,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="20" Width="97"/>
+
+    </Grid>
+</Window>

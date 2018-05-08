@@ -1,0 +1,21 @@
+﻿<Window x:Class="Oefening_4_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Oefening_4_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Label Name="omtrekLabel_Label" Content="Omtrek:" HorizontalAlignment="Left" Margin="60,144,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Name="oppervlakteLabel_Label" Content="Oppervlakte:" HorizontalAlignment="Left" Margin="60,170,0,0" VerticalAlignment="Top"/>
+        <Label Name="volumeLabel_Label" Content="Volume:" HorizontalAlignment="Left" Margin="60,196,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Name="inputLabel_Label" Content="Straal:" HorizontalAlignment="Left" Margin="60,108,0,0" VerticalAlignment="Top" Width="54"/>
+        <TextBox Name="inputTextBox_TextBox" HorizontalAlignment="Left" Height="23" Margin="227,111,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBlock Name="omtrekTextBlock_TextBlock" HorizontalAlignment="Left" Margin="227,149,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBlock Name="oppervlakteTextBlock_TextBlock" HorizontalAlignment="Left" Margin="227,175,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBlock Name="volumeTextBlock_TextBlock" HorizontalAlignment="Left" Margin="227,201,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Name="calculateButton_Button" Content="Calculate!" HorizontalAlignment="Left" Margin="391,114,0,0" VerticalAlignment="Top" Width="75" Click="calculateButton_Button_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,16 @@
+Testvraag 3.5
+
+//Drawing a cross
+//Drawing first diagonal line
+
+...CODE...
+
+//Drawing second diagonal line
+
+...CODE...
+
+Testvraag 3.6
+Code wordt in commentaar gezet door op het eerste icoontje te klikken
+Commentaar wordt weggehaald door op het tweede icoontje te klikken
+
+

@@ -5,11 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Oefening_2_6"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="574.528" Width="957.547">
     <Grid>
-        <TextBlock x:Name="textBlock_TextBlock" HorizontalAlignment="Left" Margin="193,251,0,0" TextWrapping="Wrap" Text="Dit is tekst in een TextBlock" Background="Green" VerticalAlignment="Top"/>
-        <Label x:Name="naam_Label" Content="_Naam:" HorizontalAlignment="Left" Margin="169,157,0,0" VerticalAlignment="Top" Target="{Binding ElementName=textBox_TekstBox}"/>
-        <TextBox x:Name="textBox_TekstBox" HorizontalAlignment="Left" Height="23" Margin="240,160,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="401*"/>
+            <ColumnDefinition Width="549*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="textBlock_TextBlock" HorizontalAlignment="Left" Margin="193,251,0,0" TextWrapping="Wrap" Text="Dit is tekst in een TextBlock" Background="Green" VerticalAlignment="Top" Height="16" Width="144"/>
+        <Label x:Name="naam_Label" Content="_Naam:" HorizontalAlignment="Left" Margin="169,157,0,0" VerticalAlignment="Top" Target="{Binding ElementName=textBox_TekstBox}" Height="26" Width="44"/>
+        <TextBox x:Name="textBox_TekstBox" HorizontalAlignment="Left" Height="23" Margin="43,160,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
 
     </Grid>
 </Window>
