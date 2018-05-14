@@ -25,12 +25,11 @@ namespace domineering
             BoardSize = boardSize;
             CurrentPlayer = GetCurrentPlayer();
             CreateGameBoard(BoardSize, canvas);
-            MovesWindow = new movewWindow();
-
         }
 
         public void DisplayMoves()
         {
+            MovesWindow = new movewWindow();
             MovesWindow.Show();
         }
 
@@ -39,6 +38,12 @@ namespace domineering
             ResetProperties();
             ResetBoard();
             ResetMoves();
+            ResetWindow();
+        }
+
+        private void ResetWindow()
+        {
+            MovesWindow = null;
         }
 
         private void ResetMoves()
@@ -222,6 +227,9 @@ namespace domineering
             else if (gameBoard[row + 1, colum].IsFilled)
             {
                 throw new DomineeringException("Invalid move: position is already taken");
+            } else if(gameBoard[row, colum].IsFilled)
+            {
+                throw new DomineeringException("Invalid move: position is already taken");
             }
         }
 
@@ -235,6 +243,9 @@ namespace domineering
             {
                 throw new DomineeringException("Invalid move: position is already taken");
 
+            } else if(gameBoard[row, colum].IsFilled)
+            {
+                throw new DomineeringException("Invalid move: position is already taken");
             }
 
         }

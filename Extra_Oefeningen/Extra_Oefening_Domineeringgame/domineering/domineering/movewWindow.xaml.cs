@@ -56,7 +56,7 @@ namespace domineering
             {
                 if(inputStream != null)
                 {
-                    inputStream = null;
+                    inputStream.Close();
                 }
             }
         }
